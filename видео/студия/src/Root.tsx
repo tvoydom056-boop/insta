@@ -10,7 +10,7 @@ import { CastSheet } from './CastSheet';
 //   npx remotion studio src/index.ts --port 3430
 
 // An episode may set its own width/height (the black-and-white line style is 2.39:1); the rest use the studio size.
-const size = (e: { width?: number; height?: number }) => ({ ...(e.width ? { width: e.width } : {}), ...(e.height ? { height: e.height } : {}) });
+const size = (e: { id: string; width?: number; height?: number }) => ({ ...(e.width ? { width: e.width } : {}), ...(e.height ? { height: e.height } : {}) });
 
 export const Root: React.FC = () => {
   const common = { width: STUDIO.width, height: STUDIO.height, fps: STUDIO.fps };

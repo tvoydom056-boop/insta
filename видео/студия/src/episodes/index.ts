@@ -16,6 +16,7 @@ import { diderotBw } from './diderot-bw';
 import { streisandBw } from './streisand-bw';
 import { pribavkaBw } from './pribavka-bw';
 import { pribavka80Bw } from './pribavka80-bw';
+import { abilinTestBw } from './abilin-test-bw';
 
 
-export const EPISODES = [rewind, copyPaste, slova, slovaBw, slovaSlow, slovaStory, sutki, sutkiBw, sutkiPencil, piterBw, morganie, ringelmanBw, spotlightBw, diderotBw, streisandBw, pribavkaBw, pribavka80Bw];
+export const EPISODES = [rewind, copyPaste, slova, slovaBw, slovaSlow, slovaStory, sutki, sutkiBw, sutkiPencil, piterBw, morganie, ringelmanBw, spotlightBw, diderotBw, streisandBw, pribavkaBw, pribavka80Bw, abilinTestBw];
